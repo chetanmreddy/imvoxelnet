@@ -66,7 +66,7 @@ test_cfg = dict(
 img_norm_cfg = dict(mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 
 dataset_type = 'KittiMultiViewDataset'
-data_root = 'data/kitti/'
+data_root = '/cmudi001-nx-1/data/kitti/'
 class_names = ['Car']
 input_modality = dict(use_lidar=False, use_camera=True)
 point_cloud_range = [0, -39.68, -3, 69.12, 39.68, 1]
